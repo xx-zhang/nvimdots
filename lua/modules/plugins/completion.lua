@@ -43,6 +43,14 @@ completion["nvimtools/none-ls.nvim"] = {
 		"jay-babu/mason-null-ls.nvim",
 	},
 }
+
+-- requre coc.nvim for neovim >= 0.6.0
+completion["neoclide/coc.nvim"] = {
+	lazy = true,
+	event = "LspAttach",
+}
+
+
 completion["hrsh7th/nvim-cmp"] = {
 	lazy = true,
 	event = "InsertEnter",
